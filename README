@@ -1,0 +1,15 @@
+# With CharCanvas you can treat terminal like a canvas to paint on.
+# You can put chars on terminal with (line, column) coordinates.
+#
+# Usage:
+# canvas = CharCanvas.new
+# line = 0
+# column = 0
+# 3.times { canvas.insert '*', line += 1, column += 1 }
+# canvas.paint
+#
+# stdout:
+#
+#  *
+#   *
+#    *
